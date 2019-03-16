@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private EditText username,password;
+    private EditText username, password;
     private Button button;
     private TextView text_show;
 
@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        username=findViewById(R.id.username);
-        password=findViewById(R.id.password);
-        button=findViewById(R.id.button);
-        text_show=findViewById(R.id.text_show);
+        username = findViewById(R.id.username);
+        password = findViewById(R.id.password);
+        button = findViewById(R.id.click_button);
+        text_show = findViewById(R.id.text_show);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
